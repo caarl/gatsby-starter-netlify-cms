@@ -11,3 +11,5 @@ Today we went out for dinner with Chris, Adele, James and Phil.
 I had a burger and chips and beans.
 
 And my name is Olivia.  My sister is called Eva.
+
+![](/img/joesgardenservices-greenshears-150px.png)
