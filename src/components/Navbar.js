@@ -33,6 +33,7 @@ const Navbar = class extends React.Component {
   };
 
   render() {
+    let lang_country = this.props.lang_country
     return (
       <nav
         className="navbar is-transparent"
@@ -60,7 +61,7 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item" to="{lang_country}/about">
                 About
               </Link>
               <Link className="navbar-item" to="/products">
