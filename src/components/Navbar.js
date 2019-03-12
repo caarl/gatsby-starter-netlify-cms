@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
   };
 
   render() {
-    let lang_country = this.props.lang_country // || ""
+    let lang_country = this.props.lang_country // || "grrr"
     return (
       <nav
         className="navbar is-transparent"
