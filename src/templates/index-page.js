@@ -133,7 +133,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         lan_cou="fr_fr"
         image={frontmatter.image}
-        title="blue"
+        title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
