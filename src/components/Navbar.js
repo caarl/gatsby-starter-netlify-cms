@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
   };
 
   render() {
-    let lang_country = this.props.lang_country
+    let lang_country = this.props.lang_country // || ""
     return (
       <nav
         className="navbar is-transparent"
@@ -64,19 +64,19 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to={lang_country + "/about"}>
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar-item" to={lang_country + "/products"}>
                 Products
               </Link>
-              <Link className="navbar-item" to="/productstwo">
+              <Link className="navbar-item" to={lang_country + "/productstwo"}>
                 Products2
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item" to={lang_country + "/blog"}>
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item" to={lang_country + "/contact"}>
                 Contact
               </Link>
-              <Link className="navbar-item" to="/contact/examples">
+              <Link className="navbar-item" to={lang_country + "/contact/examples"}>
                 Form Examples
               </Link>
             </div>
