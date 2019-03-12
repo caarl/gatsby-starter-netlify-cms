@@ -113,6 +113,7 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
+  la_co: PropTypes.string,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -128,7 +129,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout lan_cou={la_co}>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
