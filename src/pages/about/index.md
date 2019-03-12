@@ -1,5 +1,6 @@
 ---
 templateKey: 'about-page'
+bob: en_gb
 path: /about
 title: About our values
 ---
