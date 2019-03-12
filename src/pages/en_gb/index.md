@@ -1,6 +1,6 @@
 ---
 templateKey: 'index-page'
-bob: /en_gb
+bob: en_gb
 title: 'Great coffee with a conscience'
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
