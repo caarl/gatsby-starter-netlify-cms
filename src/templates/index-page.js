@@ -129,8 +129,9 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout lan_cou="fr_fr">
+    <Layout>
       <IndexPageTemplate
+        lan_cou="fr_fr"
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
