@@ -1,4 +1,5 @@
 ---
+la_co: en_au
 templateKey: 'product-page'
 path: /products
 title: Our Coffee
